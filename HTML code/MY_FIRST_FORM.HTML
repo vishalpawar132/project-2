@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact form</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+          to right,
+          rgb(7, 212, 191),
+          rgb(0, 106, 205)
+        );
+      }
+
+      h1 {
+        text-align: center;
+        color: whitesmoke;
+        padding-top: 30px;
+        margin: 0px;
+        font-size: 60px;
+        font-weight: 500;
+        text-shadow: 0px px 2px 0px rgb(17, 18, 18);
+      }
+
+      h3 {
+        text-align: center;
+        color: whitesmoke;
+        padding: 10px;
+        margin: 0px;
+        font-size: 15px;
+        font-weight: 500;
+        text-shadow: 0px px 2px 0px rgb(17, 18, 18);
+      }
+
+      form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 990px;
+        height: 450px;
+        padding: 30px;
+      }
+      textarea {
+        width: 900px;
+        height: 110px;
+        line-height: 1.5;
+        color: #fff;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        display: block;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+        display: block;
+        font-family: "source sans pro";
+      }
+
+      select {
+        width: 950px;
+        height: 48px;
+        line-height: 1.5;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        display: block;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+        display: block;
+        font-family: "source sans pro";
+      }
+
+      .email {
+        width: 900px;
+        height: 48px;
+        line-height: 1.5;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        display: block;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+        display: block;
+        font-family: "source sans pro";
+      }
+
+      .nameinput {
+        width: 900px;
+        height: 48px;
+        line-height: 1.5;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        display: block;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+        display: block;
+        font-family: "source sans pro";
+      }
+
+      input[type="submit"] {
+        float: right;
+        width: 200px;
+        height: 45px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        position: relative;
+        margin-right: 10%;
+        display: inline-block;
+      }
+
+      input[type="subimt"]:hover {
+        background-color: rgb(11, 112, 146);
+      }
+
+      input.nameinput {
+        background: rgba(0, 0, 0, 0.4);
+        padding-left: 45px;
+      }
+
+      input.email {
+        background: rgba(0, 0, 0, 0.4);
+        padding-left: 45px;
+      }
+
+      select.typeofshoot {
+        background: rgba(0, 0, 0, 0.4);
+        padding-left: 45px;
+      }
+
+      #massage {
+        background: rgba(0, 0, 0, 0.4);
+        padding-left: 45px;
+      }
+
+      ::-webkit-input-placeholder {
+        color: #fff;
+      }
+
+      @media only screen and (max-width: 517px)  {
+        body {
+        background-image: linear-gradient(
+          to right,
+          rgb(7, 212, 191),
+          rgb(0, 106, 205)
+        );
+      }
+       
+      h1{font-size: 30px;}
+      h3{font-size: 8px;}
+      form{width: 295px;}
+      .nameinput,.email , select , textarea {width: 225px  !important;}
+      #submit{width: 30px;}
+      }
+
+      @media only screen and ( max-width: 804px ) {
+        body {
+        background-image: linear-gradient(
+          to right,
+          rgb(7, 212, 191),
+          rgb(0, 106, 205)
+        );
+      }
+
+      h1{font-size: 50px;}
+      h3{font-size: 15px;}
+      form{width: 650px;}
+      .nameinput,.email , select , textarea {width: 500px  !important;}
+      #submit{width: 100px;}
+      }
+
+      @media only screen and ( min-width: 768px ) and ( max-width: 1035px ) {
+        body {
+        background-image: linear-gradient(
+          to right,
+          rgb(7, 212, 191),
+          rgb(0, 106, 205)
+        );
+      }
+
+      h1{font-size: 80px;}
+      h3{font-size: 20px;}
+      form{width: 800px;}
+      .nameinput,.email , select , textarea {width: 650px !important;}
+      #submit{width:200px}
+      }
+   
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>HARRY PHOTOGRAPHY</h1>
+    <h3>
+      WEDDIND | PRE-WEDDING | MATERNITY | MODELING | OUTERDOOR | AD.SHOOT |
+      PRODUCT
+    </h3>
+
+    <form action="">
+      <input
+        type="text"
+        name="name"
+        size="40"
+        class="nameinput"
+        placeholder="first name"
+      />
+      <input
+        type="lastname"
+        name="lastname"
+        size="40"
+        class="nameinput"
+        placeholder="last name"
+      />
+      <input
+        type="email"
+        name="email"
+        size="40"
+        class="email"
+        placeholder="email"
+        aria-required="true"
+        aria-invalid="false"
+      />
+      <select
+        name="typeofshoot"
+        class="typeofshoot"
+        placeholder="type of shoot "
+      >
+        <option value="">--select shoot type--</option>
+        <option value="WEDDIND">WEDDIND SHOOT</option>
+        <option value="PRE-WEDDING">PRE-WEDDING SHOOT</option>
+        <option value="MATERNITY">MATERNITY SHOOT</option>
+        <option value="MODELING">MODELING SHOOT</option>
+        <option value="OUTERDOOR">OUTERDOOR SHOOT</option>
+        <option value="AD.SHOOT">AD.SHOOT</option>
+        <option value="PRODUCT">PRODUCT SHOOT</option>
+      </select>
+      <textarea
+        name="massage "
+        id="massage"
+        cols="40"
+        rows="10"
+        placeholder="massage / any suggestion"
+      ></textarea>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>

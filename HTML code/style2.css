@@ -1,0 +1,64 @@
+body{
+    background-color: #b47171;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    
+  }
+  
+  li {
+    float: left;
+    word-spacing: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(108, 204, 24);
+  }
+
+
+  input{
+    height: 15%;
+    width: 100%;
+  }
+  
+
+  button{
+    background: black;
+    color:white;
+    height: 2rem;
+    width: 100%;
+  }
+
+.table1{
+    background-color: rgb(18, 17, 17);
+    color: white;
+}
+
+.sec1{
+    background-color: #b75454;
+}
+.sec2{
+    background-color: #af5151;
+}
+
+input:focus {
+    background-color: rgb(111, 153, 200);
+}
+
+
+  

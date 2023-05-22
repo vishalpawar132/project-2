@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritance property</title>
+    <style>
+        body{
+            color: blue;
+        }
+        .class-1 a{
+            color: inherit;
+        }
+        .class-2 a{
+            color: initial;
+        }
+        .class-3 a{
+            color: unset;
+        }
+        .important{
+            color: rgb(211, 149, 15);
+        }
+        
+        .box{
+            border: 2px solid rgb(79, 7, 248);
+            width: 260px;
+            height: 260px;
+            font-style: italic;
+            text-decoration-color: brown;
+        }
+    </style>
+   
+</head>
+<body>
+    <ul>
+       <li>default <a href="">link</a>color</li>
+       <li class="class-1">inherited <a href="">link </a>color </li>
+       <li class="class-2">initail <a href="">link </a>color </li>
+       <li class="class-3">unset <a href="">link </a>color </li> 
+    </ul>
+
+ <!--important keyword-->
+<p class="important" style="color: rgb(29, 74, 164);">this is red color</p>
+
+<!-- overflow concept  -->
+<div class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vel voluptate delectus voluptatibus impedit laudantium deleniti harum asperiores ea quibusdam excepturi consequatur, molestias numquam unde, temporibus quod obcaecati labore et!Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vel voluptate delectus voluptatibus impedit laudantium deleniti harum asperiores ea quibusdam excepturi consequatur, molestias numquam unde, temporibus quod obcaecati labore et!</div>
+
+</body>
+</html>

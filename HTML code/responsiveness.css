@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 14px georgia, serif;
+    background: #ccc;
+    
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{
+    display: black;
+}
+
+h2{
+    font: 24px georgia;
+    margin: 0 0 10px 0;
+}
+
+h3{
+    margin: 0 0 8px 0 ;
+    font-style: italic;
+    color: rgb(25, 238, 164);
+}
+
+p{
+    
+    float: right;
+}
+
+.colunm{
+    column-width: 800px;
+}
+#fluid-wrap{
+    float: left;
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.col-sm-9{
+    width: 75%;
+    float: right;
+    border: 1px;
+    border-color: red;
+
+}
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 3px 0;
+    display: black;
+    
+}
+
+@media all and (min-width: 100px){
+    #sidebar ul li a:after {
+        content: data-email;
+        font-size: 11px;
+        color: brown;
+    }
+}
+
+@media all and (max-width: 1000px ) and (min-width: 700px) {
+    #sidebar ul li a:before {
+        content:"email:";
+        font-style: italic;
+        color: #666;
+    }
+}
+
+#main-content{
+    width: 65%;
+    float: right;
+    column-rule: 2px;
+}
